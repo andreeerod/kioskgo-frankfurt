@@ -1,0 +1,59 @@
+<ion-content>
+  <div class="header">
+    <ion-icon class="back" name="chevron-back-outline"></ion-icon>
+    <img class="logo" src="../../assets/logo-preto.png">
+    <ion-icon class="mail" name="mail-outline"></ion-icon>
+  </div>
+
+  <div>
+    <img class="publi" src="../../assets/Banner.png" alt="">
+  </div>
+
+  <div style="margin-top: 30px;">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-card  class="card-select">
+            <ion-card-content class="bg">
+              <img class="images-home" [routerLink]="['../../withdrawn']" src="../../assets/Component1.png" alt="">
+              <p>Storage</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card class="card">
+            <ion-card-content>
+              <img  class="images-home" [routerLink]="['../../perfil']" src="../../assets/Component2.png" alt="">
+              <p>Setting</p>
+
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div style="margin-top: 20px;">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-card  class="card">
+            <ion-card-content>
+              <img  class="images-home" [routerLink]="['../../orders']" src="../../assets/Component3.png" alt="">
+              <p>Help</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card class="card">
+            <ion-card-content>
+              <img  class="images-home" [routerLink]="['../../stats']" src="../../assets/Component4.png" alt="">
+              <p>Graphics </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+</ion-content>

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ion-content {
+  --background: #fff;
+}
+
+.back {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  color: #2D0C57;
+  font-size: 22px;
+}
+
+.msg {
+  position: absolute;
+  right: 60px;
+  top: 30px;
+  color: #2D0C57;
+  font-size: 22px;
+}
+
+.header {
+  position: relative;
+}
+
+.logo {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 35%;
+}
+
+.mail {
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  color: #000;
+  font-size: 30px;
+}
+
+.publi{
+  width: 90%;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-top: 20px;
+  object-fit: cover;
+}
+
+.card{
+  padding: 20px;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  --background:rgba(218, 218, 218, .2);
+}
+
+.card-select{
+  padding: 20px;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  --background:rgba(255, 212, 33, .3);
+}
+
+.bg{
+  --background:rgba(255, 212, 33, .3);
+
+}
+
+p{
+  text-align: center;
+  color: #000;
+}
+
+.images-home{
+  width: 98%;
+  margin-left: 1%;
+}

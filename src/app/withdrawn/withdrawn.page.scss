@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ion-content {
+  --background: #fff;
+}
+
+.back {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  color: #2D0C57;
+  font-size: 22px;
+}
+
+.cart {
+  position: absolute;
+  right: 60px;
+  top: 30px;
+  color: #2D0C57;
+  font-size: 24px;
+}
+
+.header {
+  position: relative;
+}
+
+.logo {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 35%;
+}
+
+.menu {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  color: #000;
+  font-size: 30px;
+}
+
+.container-picker {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.picker {
+  margin-top: 20px;
+}
+
+.container-number {
+  position: absolute;
+  right: 32px;
+  top: 10px;
+  width: 30px;
+  text-align: center;
+  background-color: red;
+  border-radius: 100%;
+  padding: 2px;
+}
+
+.number {
+  color: #fff;
+  font-weight: 300;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111111;
+}
+
+.sub {
+  font-size: 16px;
+  color: #858585;
+}
+
+.line {
+  width: 90%;
+  margin-left: 5%;
+  opacity: .2;
+}
+
+.img-product {
+  width: 100px;
+  object-fit: cover;
+}
+
+.title-product {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #111111;
+
+}
+
+.btn-remove {
+  position: absolute;
+  height: 40px;
+  bottom: 10px;
+  --background: #ff0c0c;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.btn-ok {
+  position: absolute;
+  bottom: 10px;
+  height: 40px;
+  --background: #0BCE83;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+.desc {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #858585;
+  margin-top: 45px;
+}
+
+.container-products {
+  margin-top: 20px;
+  position: relative;
+}
+
+.btn {
+  margin-top: 40px;
+  color: #000000;
+  width: 80%;
+  margin-left: 10%;
+  height: 55px;
+  --background: #ffd421;
+}
+
+.mg-top-50{
+  margin-top: 50px;
+}

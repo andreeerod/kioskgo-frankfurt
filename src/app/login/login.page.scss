@@ -1,0 +1,86 @@
+.logo {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 50px;
+}
+
+ion-content {
+  --background: #000;
+}
+
+.mg-top-50 {
+  margin-top: 50px;
+}
+
+.mg-top-20 {
+  margin-top: 20px !important;
+}
+
+.mg-top-100 {
+  margin-top: 100px;
+}
+
+
+.mg-top-15 {
+  margin-top: 15px;
+}
+
+.input {
+  color: #fff;
+  width: 80%;
+  margin-left: 10%;
+  background-color: #111111;
+  border-radius: 5px;
+  padding: 5px 10px !important;
+}
+
+.icon {
+  color: gray;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+
+.btn {
+  margin-top: 40px;
+  color: #000000;
+  width: 80%;
+  margin-left: 10%;
+  height: 55px;
+}
+
+ion-button {
+  --background: #ffd421;
+}
+
+.container-forgot {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+
+.forgot {
+  margin-top: 20px;
+  color: gray;
+  font-size: 14px;
+}
+
+
+.google {
+  width: 40%;
+  position: absolute;
+  right: -5px;
+}
+
+.facebook {
+  width: 42%;
+  margin-left: -5px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}

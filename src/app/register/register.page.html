@@ -1,0 +1,39 @@
+<ion-content>
+  <div>
+    <img class="logo" src="../../assets/logo-preto.png">
+  </div>
+  <div>
+    <h1 class="title">
+      Create a used account
+    </h1>
+    <p class="sub">
+      sign up to started
+    </p>
+  </div>
+  <div class="mg-top-50">
+    <ion-input class="input" type="text" placeholder="First Name">
+      <ion-icon class="icon" name="person-outline"></ion-icon>
+    </ion-input>
+    <ion-input class="input" type="text" placeholder="Last Name">
+      <ion-icon class="icon" name="person-outline"></ion-icon>
+    </ion-input>
+    <ion-input class="input" type="text" placeholder="E-mail">
+      <ion-icon class="icon" name="at-outline"></ion-icon>
+    </ion-input>
+
+
+    <select class="select">
+      <!-- <option class="option" value="m">Male</option>
+      <option value="f">Female</option>
+      <option value="o">Other</option> -->
+    </select>
+
+    <ion-input class="input mg-top-15" type="text" placeholder="Mobile Number">
+      <ion-icon class="icon" name="call-outline"></ion-icon>
+    </ion-input>
+  </div>
+
+  <div>
+    <ion-button style="margin-bottom: 30px;" [routerLink]="['../password']" class="btn">Continue</ion-button>
+  </div>
+</ion-content>
